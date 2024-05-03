@@ -44,6 +44,13 @@ button:hover{
     background-color:rgb(20, 70, 76) ;
 }
 
-.res{
+.res-msg{
+    display: none;
     margin-top: 10px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: 400;
+
 }
