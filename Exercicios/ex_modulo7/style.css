@@ -43,3 +43,7 @@ button{
 button:hover{
     background-color:rgb(20, 70, 76) ;
 }
+
+.res{
+    margin-top: 10px;
+}

@@ -1,17 +1,10 @@
-const form = document.getElementById('formVerifica');
+function verificar() {
+    let numA = document.getElementById('numA');
+    let numB = document.getElementById('numB');
 
-function validaCampos() {
-    let numA = document.getElementById('numA').value;
-    let numB = document.getElementById('numB').value;
-
-    if(numA > numB) {
-        
+    if( numA.value >= numB.value ) {
+        alert('Erro!')
+    } else {
+        alert('Ok!')
     }
 }
-
-form.addEventListener('submit', function(e) {
-    e.preventDefault();
-
-})
-
-console.log(form)
